@@ -1,0 +1,2653 @@
+document_id,document_text,full_text,entity,entity_type,gold_answer,encoded_label,entity_word_count,doc_length,deepseek_prompt_ru,deepseek_prompt_en
+brexit_ru.txt_file_1000,"Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...","ru-1000
+ru
+2018-07-09
+http://news.meta.ua/ua/cluster:60407124-Boris-Dzhonson-podal-v-otstavku-s-posta-ministra-inostrannykh-del-Velikobritanii/
+Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании
+
+Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о своем уходе объявили министр по вопросам выхода Великобритании из ЕС Дэвид Дэвис и заместитель министра по Brexit Стив Бейкер. Напомним, ранее премьер-министр Великобритании Тереза Мэй пообещала отправить в отставку главу МИД Соединенного Королевства Бориса Джонсона, если он попытается ослабить согласованную ее кабинетом коллективную позицию относительно будущих переговоров с ЕС.
+
+Об этом сообщает The Guardian, передает УНН. ""Сегодня днем премьер-министр принял отставку Бориса Джонсона с поста качестве министра иностранных дел. Его замена будет объявлена в ближайшее время. Премьер-министр благодарит Бориса за его работу"", - сообщил пресс-секретарь британского парламента.
+",Brexit,EVT,EVT,0,1,1024,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...""
+Сущность: ""Brexit""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...""
+Entity: ""Brexit""
+Type:"
+brexit_ru.txt_file_1000,"Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...","ru-1000
+ru
+2018-07-09
+http://news.meta.ua/ua/cluster:60407124-Boris-Dzhonson-podal-v-otstavku-s-posta-ministra-inostrannykh-del-Velikobritanii/
+Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании
+
+Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о своем уходе объявили министр по вопросам выхода Великобритании из ЕС Дэвид Дэвис и заместитель министра по Brexit Стив Бейкер. Напомним, ранее премьер-министр Великобритании Тереза Мэй пообещала отправить в отставку главу МИД Соединенного Королевства Бориса Джонсона, если он попытается ослабить согласованную ее кабинетом коллективную позицию относительно будущих переговоров с ЕС.
+
+Об этом сообщает The Guardian, передает УНН. ""Сегодня днем премьер-министр принял отставку Бориса Джонсона с поста качестве министра иностранных дел. Его замена будет объявлена в ближайшее время. Премьер-министр благодарит Бориса за его работу"", - сообщил пресс-секретарь британского парламента.
+",The Guardian,PRO,PRO,4,2,1024,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...""
+Сущность: ""The Guardian""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...""
+Entity: ""The Guardian""
+Type:"
+brexit_ru.txt_file_1000,"Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...","ru-1000
+ru
+2018-07-09
+http://news.meta.ua/ua/cluster:60407124-Boris-Dzhonson-podal-v-otstavku-s-posta-ministra-inostrannykh-del-Velikobritanii/
+Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании
+
+Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о своем уходе объявили министр по вопросам выхода Великобритании из ЕС Дэвид Дэвис и заместитель министра по Brexit Стив Бейкер. Напомним, ранее премьер-министр Великобритании Тереза Мэй пообещала отправить в отставку главу МИД Соединенного Королевства Бориса Джонсона, если он попытается ослабить согласованную ее кабинетом коллективную позицию относительно будущих переговоров с ЕС.
+
+Об этом сообщает The Guardian, передает УНН. ""Сегодня днем премьер-министр принял отставку Бориса Джонсона с поста качестве министра иностранных дел. Его замена будет объявлена в ближайшее время. Премьер-министр благодарит Бориса за его работу"", - сообщил пресс-секретарь британского парламента.
+",Борис Джонсон,PER,PER,3,2,1024,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""Подробности.ua: Третий за сутки: **Борис Джонсон** покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Ранне""
+Сущность: ""Борис Джонсон""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""Подробности.ua: Третий за сутки: **Борис Джонсон** покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Ранне""
+Entity: ""Борис Джонсон""
+Type:"
+brexit_ru.txt_file_1000,"Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...","ru-1000
+ru
+2018-07-09
+http://news.meta.ua/ua/cluster:60407124-Boris-Dzhonson-podal-v-otstavku-s-posta-ministra-inostrannykh-del-Velikobritanii/
+Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании
+
+Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о своем уходе объявили министр по вопросам выхода Великобритании из ЕС Дэвид Дэвис и заместитель министра по Brexit Стив Бейкер. Напомним, ранее премьер-министр Великобритании Тереза Мэй пообещала отправить в отставку главу МИД Соединенного Королевства Бориса Джонсона, если он попытается ослабить согласованную ее кабинетом коллективную позицию относительно будущих переговоров с ЕС.
+
+Об этом сообщает The Guardian, передает УНН. ""Сегодня днем премьер-министр принял отставку Бориса Джонсона с поста качестве министра иностранных дел. Его замена будет объявлена в ближайшее время. Премьер-министр благодарит Бориса за его работу"", - сообщил пресс-секретарь британского парламента.
+",Бориса Джонсона,PER,PER,3,2,1024,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...""
+Сущность: ""Бориса Джонсона""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...""
+Entity: ""Бориса Джонсона""
+Type:"
+brexit_ru.txt_file_1000,"Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...","ru-1000
+ru
+2018-07-09
+http://news.meta.ua/ua/cluster:60407124-Boris-Dzhonson-podal-v-otstavku-s-posta-ministra-inostrannykh-del-Velikobritanii/
+Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании
+
+Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о своем уходе объявили министр по вопросам выхода Великобритании из ЕС Дэвид Дэвис и заместитель министра по Brexit Стив Бейкер. Напомним, ранее премьер-министр Великобритании Тереза Мэй пообещала отправить в отставку главу МИД Соединенного Королевства Бориса Джонсона, если он попытается ослабить согласованную ее кабинетом коллективную позицию относительно будущих переговоров с ЕС.
+
+Об этом сообщает The Guardian, передает УНН. ""Сегодня днем премьер-министр принял отставку Бориса Джонсона с поста качестве министра иностранных дел. Его замена будет объявлена в ближайшее время. Премьер-министр благодарит Бориса за его работу"", - сообщил пресс-секретарь британского парламента.
+",Бориса,PER,PER,3,1,1024,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...""
+Сущность: ""Бориса""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...""
+Entity: ""Бориса""
+Type:"
+brexit_ru.txt_file_1000,"Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...","ru-1000
+ru
+2018-07-09
+http://news.meta.ua/ua/cluster:60407124-Boris-Dzhonson-podal-v-otstavku-s-posta-ministra-inostrannykh-del-Velikobritanii/
+Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании
+
+Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о своем уходе объявили министр по вопросам выхода Великобритании из ЕС Дэвид Дэвис и заместитель министра по Brexit Стив Бейкер. Напомним, ранее премьер-министр Великобритании Тереза Мэй пообещала отправить в отставку главу МИД Соединенного Королевства Бориса Джонсона, если он попытается ослабить согласованную ее кабинетом коллективную позицию относительно будущих переговоров с ЕС.
+
+Об этом сообщает The Guardian, передает УНН. ""Сегодня днем премьер-министр принял отставку Бориса Джонсона с поста качестве министра иностранных дел. Его замена будет объявлена в ближайшее время. Премьер-министр благодарит Бориса за его работу"", - сообщил пресс-секретарь британского парламента.
+",Великобритании,LOC,LOC,1,1,1024,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел **Великобритании**  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...""
+Сущность: ""Великобритании""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел **Великобритании**  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...""
+Entity: ""Великобритании""
+Type:"
+brexit_ru.txt_file_1000,"Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...","ru-1000
+ru
+2018-07-09
+http://news.meta.ua/ua/cluster:60407124-Boris-Dzhonson-podal-v-otstavku-s-posta-ministra-inostrannykh-del-Velikobritanii/
+Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании
+
+Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о своем уходе объявили министр по вопросам выхода Великобритании из ЕС Дэвид Дэвис и заместитель министра по Brexit Стив Бейкер. Напомним, ранее премьер-министр Великобритании Тереза Мэй пообещала отправить в отставку главу МИД Соединенного Королевства Бориса Джонсона, если он попытается ослабить согласованную ее кабинетом коллективную позицию относительно будущих переговоров с ЕС.
+
+Об этом сообщает The Guardian, передает УНН. ""Сегодня днем премьер-министр принял отставку Бориса Джонсона с поста качестве министра иностранных дел. Его замена будет объявлена в ближайшее время. Премьер-министр благодарит Бориса за его работу"", - сообщил пресс-секретарь британского парламента.
+",Джонсон,PER,PER,3,1,1024,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""Подробности.ua: Третий за сутки: Борис **Джонсон** покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Ранне""
+Сущность: ""Джонсон""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""Подробности.ua: Третий за сутки: Борис **Джонсон** покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Ранне""
+Entity: ""Джонсон""
+Type:"
+brexit_ru.txt_file_1000,"Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...","ru-1000
+ru
+2018-07-09
+http://news.meta.ua/ua/cluster:60407124-Boris-Dzhonson-podal-v-otstavku-s-posta-ministra-inostrannykh-del-Velikobritanii/
+Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании
+
+Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о своем уходе объявили министр по вопросам выхода Великобритании из ЕС Дэвид Дэвис и заместитель министра по Brexit Стив Бейкер. Напомним, ранее премьер-министр Великобритании Тереза Мэй пообещала отправить в отставку главу МИД Соединенного Королевства Бориса Джонсона, если он попытается ослабить согласованную ее кабинетом коллективную позицию относительно будущих переговоров с ЕС.
+
+Об этом сообщает The Guardian, передает УНН. ""Сегодня днем премьер-министр принял отставку Бориса Джонсона с поста качестве министра иностранных дел. Его замена будет объявлена в ближайшее время. Премьер-министр благодарит Бориса за его работу"", - сообщил пресс-секретарь британского парламента.
+",Дэвид Дэвис,PER,PER,3,2,1024,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...""
+Сущность: ""Дэвид Дэвис""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...""
+Entity: ""Дэвид Дэвис""
+Type:"
+brexit_ru.txt_file_1000,"Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...","ru-1000
+ru
+2018-07-09
+http://news.meta.ua/ua/cluster:60407124-Boris-Dzhonson-podal-v-otstavku-s-posta-ministra-inostrannykh-del-Velikobritanii/
+Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании
+
+Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о своем уходе объявили министр по вопросам выхода Великобритании из ЕС Дэвид Дэвис и заместитель министра по Brexit Стив Бейкер. Напомним, ранее премьер-министр Великобритании Тереза Мэй пообещала отправить в отставку главу МИД Соединенного Королевства Бориса Джонсона, если он попытается ослабить согласованную ее кабинетом коллективную позицию относительно будущих переговоров с ЕС.
+
+Об этом сообщает The Guardian, передает УНН. ""Сегодня днем премьер-министр принял отставку Бориса Джонсона с поста качестве министра иностранных дел. Его замена будет объявлена в ближайшее время. Премьер-министр благодарит Бориса за его работу"", - сообщил пресс-секретарь британского парламента.
+",ЕС,ORG,ORG,2,1,1024,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...""
+Сущность: ""ЕС""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...""
+Entity: ""ЕС""
+Type:"
+brexit_ru.txt_file_1000,"Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...","ru-1000
+ru
+2018-07-09
+http://news.meta.ua/ua/cluster:60407124-Boris-Dzhonson-podal-v-otstavku-s-posta-ministra-inostrannykh-del-Velikobritanii/
+Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании
+
+Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о своем уходе объявили министр по вопросам выхода Великобритании из ЕС Дэвид Дэвис и заместитель министра по Brexit Стив Бейкер. Напомним, ранее премьер-министр Великобритании Тереза Мэй пообещала отправить в отставку главу МИД Соединенного Королевства Бориса Джонсона, если он попытается ослабить согласованную ее кабинетом коллективную позицию относительно будущих переговоров с ЕС.
+
+Об этом сообщает The Guardian, передает УНН. ""Сегодня днем премьер-министр принял отставку Бориса Джонсона с поста качестве министра иностранных дел. Его замена будет объявлена в ближайшее время. Премьер-министр благодарит Бориса за его работу"", - сообщил пресс-секретарь британского парламента.
+",МИД Соединенного Королевства,ORG,ORG,2,3,1024,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...""
+Сущность: ""МИД Соединенного Королевства""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...""
+Entity: ""МИД Соединенного Королевства""
+Type:"
+brexit_ru.txt_file_1000,"Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...","ru-1000
+ru
+2018-07-09
+http://news.meta.ua/ua/cluster:60407124-Boris-Dzhonson-podal-v-otstavku-s-posta-ministra-inostrannykh-del-Velikobritanii/
+Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании
+
+Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о своем уходе объявили министр по вопросам выхода Великобритании из ЕС Дэвид Дэвис и заместитель министра по Brexit Стив Бейкер. Напомним, ранее премьер-министр Великобритании Тереза Мэй пообещала отправить в отставку главу МИД Соединенного Королевства Бориса Джонсона, если он попытается ослабить согласованную ее кабинетом коллективную позицию относительно будущих переговоров с ЕС.
+
+Об этом сообщает The Guardian, передает УНН. ""Сегодня днем премьер-министр принял отставку Бориса Джонсона с поста качестве министра иностранных дел. Его замена будет объявлена в ближайшее время. Премьер-министр благодарит Бориса за его работу"", - сообщил пресс-секретарь британского парламента.
+",Подробности.ua,PRO,PRO,4,1,1024,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""**Подробности.ua**: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул ""
+Сущность: ""Подробности.ua""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""**Подробности.ua**: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул ""
+Entity: ""Подробности.ua""
+Type:"
+brexit_ru.txt_file_1000,"Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...","ru-1000
+ru
+2018-07-09
+http://news.meta.ua/ua/cluster:60407124-Boris-Dzhonson-podal-v-otstavku-s-posta-ministra-inostrannykh-del-Velikobritanii/
+Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании
+
+Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о своем уходе объявили министр по вопросам выхода Великобритании из ЕС Дэвид Дэвис и заместитель министра по Brexit Стив Бейкер. Напомним, ранее премьер-министр Великобритании Тереза Мэй пообещала отправить в отставку главу МИД Соединенного Королевства Бориса Джонсона, если он попытается ослабить согласованную ее кабинетом коллективную позицию относительно будущих переговоров с ЕС.
+
+Об этом сообщает The Guardian, передает УНН. ""Сегодня днем премьер-министр принял отставку Бориса Джонсона с поста качестве министра иностранных дел. Его замена будет объявлена в ближайшее время. Премьер-министр благодарит Бориса за его работу"", - сообщил пресс-секретарь британского парламента.
+",Стив Бейкер,PER,PER,3,2,1024,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...""
+Сущность: ""Стив Бейкер""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...""
+Entity: ""Стив Бейкер""
+Type:"
+brexit_ru.txt_file_1000,"Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...","ru-1000
+ru
+2018-07-09
+http://news.meta.ua/ua/cluster:60407124-Boris-Dzhonson-podal-v-otstavku-s-posta-ministra-inostrannykh-del-Velikobritanii/
+Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании
+
+Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о своем уходе объявили министр по вопросам выхода Великобритании из ЕС Дэвид Дэвис и заместитель министра по Brexit Стив Бейкер. Напомним, ранее премьер-министр Великобритании Тереза Мэй пообещала отправить в отставку главу МИД Соединенного Королевства Бориса Джонсона, если он попытается ослабить согласованную ее кабинетом коллективную позицию относительно будущих переговоров с ЕС.
+
+Об этом сообщает The Guardian, передает УНН. ""Сегодня днем премьер-министр принял отставку Бориса Джонсона с поста качестве министра иностранных дел. Его замена будет объявлена в ближайшее время. Премьер-министр благодарит Бориса за его работу"", - сообщил пресс-секретарь британского парламента.
+",Тереза Мэй,PER,PER,3,2,1024,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...""
+Сущность: ""Тереза Мэй""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...""
+Entity: ""Тереза Мэй""
+Type:"
+brexit_ru.txt_file_1000,"Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...","ru-1000
+ru
+2018-07-09
+http://news.meta.ua/ua/cluster:60407124-Boris-Dzhonson-podal-v-otstavku-s-posta-ministra-inostrannykh-del-Velikobritanii/
+Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании
+
+Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о своем уходе объявили министр по вопросам выхода Великобритании из ЕС Дэвид Дэвис и заместитель министра по Brexit Стив Бейкер. Напомним, ранее премьер-министр Великобритании Тереза Мэй пообещала отправить в отставку главу МИД Соединенного Королевства Бориса Джонсона, если он попытается ослабить согласованную ее кабинетом коллективную позицию относительно будущих переговоров с ЕС.
+
+Об этом сообщает The Guardian, передает УНН. ""Сегодня днем премьер-министр принял отставку Бориса Джонсона с поста качестве министра иностранных дел. Его замена будет объявлена в ближайшее время. Премьер-министр благодарит Бориса за его работу"", - сообщил пресс-секретарь британского парламента.
+",УНН,ORG,ORG,2,1,1024,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...""
+Сущность: ""УНН""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""Подробности.ua: Третий за сутки: Борис Джонсон покинул пост министра иностранных дел Великобритании  Таким образом, Джонсон стал третьим министром, который покинул свой пост в течении суток. Раннее о ...""
+Entity: ""УНН""
+Type:"
+brexit_ru.txt_file_1011,"За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...","ru-1011
+ru
+2018-07-09
+https://tsargrad.tv/news/za-borisom-dzhonsonom-posleduet-sama-mjej-britanskaja-pressa-o-glavnom-politicheskom-krizise-nedeli_145149
+За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели
+
+Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напоминают, что он был одним из самых ярких противников планов премьер-министра Великобритании Терезы Мэй, которая планировала мягкий выход из ЕС. Так, СМИ полагают, что отставка Джонсона, которая последовала сразу же за отставкой министра по выходу Великобритании из ЕС, повысит чувство кризиса в политической элите Великобритании. В дальнейшем это должно претвориться в отставку самой Терезы Мэй, уверено издание The Guardian. Издание называет такое развитие событий самым негативным последствием Brexit. Отметим, что перед отставкой Борис Джонсон уже не стеснялся и открыто критиковал Терезу Мэй, сообщают британские СМИ. Напомним, что до Джонсона поджал в отставку министр по выходу Великобритании из ЕС Дэвид Дэвис. Его отставка состоялась буквально накануне того, как Тереза Мэй должна была Палате общин, в ходе которого она должна представить только что одобренную кабинетом министров стратегию выхода страны из Евросоюза. Разногласия Мэй с Дэвисом и Джонсоном были принципиального характера. Мэй предложила мягкий вариант выхода, суть которого заключается в том, что создание создаются зоны свободной торговли с ЕС для промышленных и сельскохозяйственных товаров, а также сохраняются таможенные стандартов ЕС на границе с Великобританией. В то время как два ключевых министра, которые теперь в отставке, считают такую стратегию ослабляющей страну, она не позволит влиять на решения ЕС. Сам выход Великобритании из ЕС будет оформлен 29 марта.
+",Brexit,EVT,EVT,0,1,1796,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...""
+Сущность: ""Brexit""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...""
+Entity: ""Brexit""
+Type:"
+brexit_ru.txt_file_1011,"За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...","ru-1011
+ru
+2018-07-09
+https://tsargrad.tv/news/za-borisom-dzhonsonom-posleduet-sama-mjej-britanskaja-pressa-o-glavnom-politicheskom-krizise-nedeli_145149
+За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели
+
+Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напоминают, что он был одним из самых ярких противников планов премьер-министра Великобритании Терезы Мэй, которая планировала мягкий выход из ЕС. Так, СМИ полагают, что отставка Джонсона, которая последовала сразу же за отставкой министра по выходу Великобритании из ЕС, повысит чувство кризиса в политической элите Великобритании. В дальнейшем это должно претвориться в отставку самой Терезы Мэй, уверено издание The Guardian. Издание называет такое развитие событий самым негативным последствием Brexit. Отметим, что перед отставкой Борис Джонсон уже не стеснялся и открыто критиковал Терезу Мэй, сообщают британские СМИ. Напомним, что до Джонсона поджал в отставку министр по выходу Великобритании из ЕС Дэвид Дэвис. Его отставка состоялась буквально накануне того, как Тереза Мэй должна была Палате общин, в ходе которого она должна представить только что одобренную кабинетом министров стратегию выхода страны из Евросоюза. Разногласия Мэй с Дэвисом и Джонсоном были принципиального характера. Мэй предложила мягкий вариант выхода, суть которого заключается в том, что создание создаются зоны свободной торговли с ЕС для промышленных и сельскохозяйственных товаров, а также сохраняются таможенные стандартов ЕС на границе с Великобританией. В то время как два ключевых министра, которые теперь в отставке, считают такую стратегию ослабляющей страну, она не позволит влиять на решения ЕС. Сам выход Великобритании из ЕС будет оформлен 29 марта.
+",The Guardian,PRO,PRO,4,2,1796,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...""
+Сущность: ""The Guardian""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...""
+Entity: ""The Guardian""
+Type:"
+brexit_ru.txt_file_1011,"За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...","ru-1011
+ru
+2018-07-09
+https://tsargrad.tv/news/za-borisom-dzhonsonom-posleduet-sama-mjej-britanskaja-pressa-o-glavnom-politicheskom-krizise-nedeli_145149
+За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели
+
+Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напоминают, что он был одним из самых ярких противников планов премьер-министра Великобритании Терезы Мэй, которая планировала мягкий выход из ЕС. Так, СМИ полагают, что отставка Джонсона, которая последовала сразу же за отставкой министра по выходу Великобритании из ЕС, повысит чувство кризиса в политической элите Великобритании. В дальнейшем это должно претвориться в отставку самой Терезы Мэй, уверено издание The Guardian. Издание называет такое развитие событий самым негативным последствием Brexit. Отметим, что перед отставкой Борис Джонсон уже не стеснялся и открыто критиковал Терезу Мэй, сообщают британские СМИ. Напомним, что до Джонсона поджал в отставку министр по выходу Великобритании из ЕС Дэвид Дэвис. Его отставка состоялась буквально накануне того, как Тереза Мэй должна была Палате общин, в ходе которого она должна представить только что одобренную кабинетом министров стратегию выхода страны из Евросоюза. Разногласия Мэй с Дэвисом и Джонсоном были принципиального характера. Мэй предложила мягкий вариант выхода, суть которого заключается в том, что создание создаются зоны свободной торговли с ЕС для промышленных и сельскохозяйственных товаров, а также сохраняются таможенные стандартов ЕС на границе с Великобританией. В то время как два ключевых министра, которые теперь в отставке, считают такую стратегию ослабляющей страну, она не позволит влиять на решения ЕС. Сам выход Великобритании из ЕС будет оформлен 29 марта.
+",Борис Джонсон,PER,PER,3,2,1796,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...""
+Сущность: ""Борис Джонсон""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...""
+Entity: ""Борис Джонсон""
+Type:"
+brexit_ru.txt_file_1011,"За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...","ru-1011
+ru
+2018-07-09
+https://tsargrad.tv/news/za-borisom-dzhonsonom-posleduet-sama-mjej-britanskaja-pressa-o-glavnom-politicheskom-krizise-nedeli_145149
+За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели
+
+Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напоминают, что он был одним из самых ярких противников планов премьер-министра Великобритании Терезы Мэй, которая планировала мягкий выход из ЕС. Так, СМИ полагают, что отставка Джонсона, которая последовала сразу же за отставкой министра по выходу Великобритании из ЕС, повысит чувство кризиса в политической элите Великобритании. В дальнейшем это должно претвориться в отставку самой Терезы Мэй, уверено издание The Guardian. Издание называет такое развитие событий самым негативным последствием Brexit. Отметим, что перед отставкой Борис Джонсон уже не стеснялся и открыто критиковал Терезу Мэй, сообщают британские СМИ. Напомним, что до Джонсона поджал в отставку министр по выходу Великобритании из ЕС Дэвид Дэвис. Его отставка состоялась буквально накануне того, как Тереза Мэй должна была Палате общин, в ходе которого она должна представить только что одобренную кабинетом министров стратегию выхода страны из Евросоюза. Разногласия Мэй с Дэвисом и Джонсоном были принципиального характера. Мэй предложила мягкий вариант выхода, суть которого заключается в том, что создание создаются зоны свободной торговли с ЕС для промышленных и сельскохозяйственных товаров, а также сохраняются таможенные стандартов ЕС на границе с Великобританией. В то время как два ключевых министра, которые теперь в отставке, считают такую стратегию ослабляющей страну, она не позволит влиять на решения ЕС. Сам выход Великобритании из ЕС будет оформлен 29 марта.
+",Бориса Джонсона,PER,PER,3,2,1796,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: "" Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании **Бориса Джонсона**, британские СМИ напомина...""
+Сущность: ""Бориса Джонсона""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: "" Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании **Бориса Джонсона**, британские СМИ напомина...""
+Entity: ""Бориса Джонсона""
+Type:"
+brexit_ru.txt_file_1011,"За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...","ru-1011
+ru
+2018-07-09
+https://tsargrad.tv/news/za-borisom-dzhonsonom-posleduet-sama-mjej-britanskaja-pressa-o-glavnom-politicheskom-krizise-nedeli_145149
+За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели
+
+Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напоминают, что он был одним из самых ярких противников планов премьер-министра Великобритании Терезы Мэй, которая планировала мягкий выход из ЕС. Так, СМИ полагают, что отставка Джонсона, которая последовала сразу же за отставкой министра по выходу Великобритании из ЕС, повысит чувство кризиса в политической элите Великобритании. В дальнейшем это должно претвориться в отставку самой Терезы Мэй, уверено издание The Guardian. Издание называет такое развитие событий самым негативным последствием Brexit. Отметим, что перед отставкой Борис Джонсон уже не стеснялся и открыто критиковал Терезу Мэй, сообщают британские СМИ. Напомним, что до Джонсона поджал в отставку министр по выходу Великобритании из ЕС Дэвид Дэвис. Его отставка состоялась буквально накануне того, как Тереза Мэй должна была Палате общин, в ходе которого она должна представить только что одобренную кабинетом министров стратегию выхода страны из Евросоюза. Разногласия Мэй с Дэвисом и Джонсоном были принципиального характера. Мэй предложила мягкий вариант выхода, суть которого заключается в том, что создание создаются зоны свободной торговли с ЕС для промышленных и сельскохозяйственных товаров, а также сохраняются таможенные стандартов ЕС на границе с Великобританией. В то время как два ключевых министра, которые теперь в отставке, считают такую стратегию ослабляющей страну, она не позволит влиять на решения ЕС. Сам выход Великобритании из ЕС будет оформлен 29 марта.
+",Борисом Джонсоном,PER,PER,3,2,1796,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""За **Борисом Джонсоном** последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джо""
+Сущность: ""Борисом Джонсоном""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""За **Борисом Джонсоном** последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джо""
+Entity: ""Борисом Джонсоном""
+Type:"
+brexit_ru.txt_file_1011,"За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...","ru-1011
+ru
+2018-07-09
+https://tsargrad.tv/news/za-borisom-dzhonsonom-posleduet-sama-mjej-britanskaja-pressa-o-glavnom-politicheskom-krizise-nedeli_145149
+За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели
+
+Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напоминают, что он был одним из самых ярких противников планов премьер-министра Великобритании Терезы Мэй, которая планировала мягкий выход из ЕС. Так, СМИ полагают, что отставка Джонсона, которая последовала сразу же за отставкой министра по выходу Великобритании из ЕС, повысит чувство кризиса в политической элите Великобритании. В дальнейшем это должно претвориться в отставку самой Терезы Мэй, уверено издание The Guardian. Издание называет такое развитие событий самым негативным последствием Brexit. Отметим, что перед отставкой Борис Джонсон уже не стеснялся и открыто критиковал Терезу Мэй, сообщают британские СМИ. Напомним, что до Джонсона поджал в отставку министр по выходу Великобритании из ЕС Дэвид Дэвис. Его отставка состоялась буквально накануне того, как Тереза Мэй должна была Палате общин, в ходе которого она должна представить только что одобренную кабинетом министров стратегию выхода страны из Евросоюза. Разногласия Мэй с Дэвисом и Джонсоном были принципиального характера. Мэй предложила мягкий вариант выхода, суть которого заключается в том, что создание создаются зоны свободной торговли с ЕС для промышленных и сельскохозяйственных товаров, а также сохраняются таможенные стандартов ЕС на границе с Великобританией. В то время как два ключевых министра, которые теперь в отставке, считают такую стратегию ослабляющей страну, она не позволит влиять на решения ЕС. Сам выход Великобритании из ЕС будет оформлен 29 марта.
+",Великобританией,LOC,LOC,1,1,1796,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...""
+Сущность: ""Великобританией""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...""
+Entity: ""Великобританией""
+Type:"
+brexit_ru.txt_file_1011,"За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...","ru-1011
+ru
+2018-07-09
+https://tsargrad.tv/news/za-borisom-dzhonsonom-posleduet-sama-mjej-britanskaja-pressa-o-glavnom-politicheskom-krizise-nedeli_145149
+За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели
+
+Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напоминают, что он был одним из самых ярких противников планов премьер-министра Великобритании Терезы Мэй, которая планировала мягкий выход из ЕС. Так, СМИ полагают, что отставка Джонсона, которая последовала сразу же за отставкой министра по выходу Великобритании из ЕС, повысит чувство кризиса в политической элите Великобритании. В дальнейшем это должно претвориться в отставку самой Терезы Мэй, уверено издание The Guardian. Издание называет такое развитие событий самым негативным последствием Brexit. Отметим, что перед отставкой Борис Джонсон уже не стеснялся и открыто критиковал Терезу Мэй, сообщают британские СМИ. Напомним, что до Джонсона поджал в отставку министр по выходу Великобритании из ЕС Дэвид Дэвис. Его отставка состоялась буквально накануне того, как Тереза Мэй должна была Палате общин, в ходе которого она должна представить только что одобренную кабинетом министров стратегию выхода страны из Евросоюза. Разногласия Мэй с Дэвисом и Джонсоном были принципиального характера. Мэй предложила мягкий вариант выхода, суть которого заключается в том, что создание создаются зоны свободной торговли с ЕС для промышленных и сельскохозяйственных товаров, а также сохраняются таможенные стандартов ЕС на границе с Великобританией. В то время как два ключевых министра, которые теперь в отставке, считают такую стратегию ослабляющей страну, она не позволит влиять на решения ЕС. Сам выход Великобритании из ЕС будет оформлен 29 марта.
+",Великобритании,LOC,LOC,1,1,1796,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел **Великобритании** Бориса Джонсона, британские СМИ напомина...""
+Сущность: ""Великобритании""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел **Великобритании** Бориса Джонсона, британские СМИ напомина...""
+Entity: ""Великобритании""
+Type:"
+brexit_ru.txt_file_1011,"За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...","ru-1011
+ru
+2018-07-09
+https://tsargrad.tv/news/za-borisom-dzhonsonom-posleduet-sama-mjej-britanskaja-pressa-o-glavnom-politicheskom-krizise-nedeli_145149
+За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели
+
+Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напоминают, что он был одним из самых ярких противников планов премьер-министра Великобритании Терезы Мэй, которая планировала мягкий выход из ЕС. Так, СМИ полагают, что отставка Джонсона, которая последовала сразу же за отставкой министра по выходу Великобритании из ЕС, повысит чувство кризиса в политической элите Великобритании. В дальнейшем это должно претвориться в отставку самой Терезы Мэй, уверено издание The Guardian. Издание называет такое развитие событий самым негативным последствием Brexit. Отметим, что перед отставкой Борис Джонсон уже не стеснялся и открыто критиковал Терезу Мэй, сообщают британские СМИ. Напомним, что до Джонсона поджал в отставку министр по выходу Великобритании из ЕС Дэвид Дэвис. Его отставка состоялась буквально накануне того, как Тереза Мэй должна была Палате общин, в ходе которого она должна представить только что одобренную кабинетом министров стратегию выхода страны из Евросоюза. Разногласия Мэй с Дэвисом и Джонсоном были принципиального характера. Мэй предложила мягкий вариант выхода, суть которого заключается в том, что создание создаются зоны свободной торговли с ЕС для промышленных и сельскохозяйственных товаров, а также сохраняются таможенные стандартов ЕС на границе с Великобританией. В то время как два ключевых министра, которые теперь в отставке, считают такую стратегию ослабляющей страну, она не позволит влиять на решения ЕС. Сам выход Великобритании из ЕС будет оформлен 29 марта.
+",Джонсона,PER,PER,3,1,1796,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""ном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса **Джонсона**, британские СМИ напомина...""
+Сущность: ""Джонсона""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""ном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса **Джонсона**, британские СМИ напомина...""
+Entity: ""Джонсона""
+Type:"
+brexit_ru.txt_file_1011,"За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...","ru-1011
+ru
+2018-07-09
+https://tsargrad.tv/news/za-borisom-dzhonsonom-posleduet-sama-mjej-britanskaja-pressa-o-glavnom-politicheskom-krizise-nedeli_145149
+За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели
+
+Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напоминают, что он был одним из самых ярких противников планов премьер-министра Великобритании Терезы Мэй, которая планировала мягкий выход из ЕС. Так, СМИ полагают, что отставка Джонсона, которая последовала сразу же за отставкой министра по выходу Великобритании из ЕС, повысит чувство кризиса в политической элите Великобритании. В дальнейшем это должно претвориться в отставку самой Терезы Мэй, уверено издание The Guardian. Издание называет такое развитие событий самым негативным последствием Brexit. Отметим, что перед отставкой Борис Джонсон уже не стеснялся и открыто критиковал Терезу Мэй, сообщают британские СМИ. Напомним, что до Джонсона поджал в отставку министр по выходу Великобритании из ЕС Дэвид Дэвис. Его отставка состоялась буквально накануне того, как Тереза Мэй должна была Палате общин, в ходе которого она должна представить только что одобренную кабинетом министров стратегию выхода страны из Евросоюза. Разногласия Мэй с Дэвисом и Джонсоном были принципиального характера. Мэй предложила мягкий вариант выхода, суть которого заключается в том, что создание создаются зоны свободной торговли с ЕС для промышленных и сельскохозяйственных товаров, а также сохраняются таможенные стандартов ЕС на границе с Великобританией. В то время как два ключевых министра, которые теперь в отставке, считают такую стратегию ослабляющей страну, она не позволит влиять на решения ЕС. Сам выход Великобритании из ЕС будет оформлен 29 марта.
+",Джонсоном,PER,PER,3,1,1796,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""За Борисом **Джонсоном** последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джо""
+Сущность: ""Джонсоном""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""За Борисом **Джонсоном** последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джо""
+Entity: ""Джонсоном""
+Type:"
+brexit_ru.txt_file_1011,"За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...","ru-1011
+ru
+2018-07-09
+https://tsargrad.tv/news/za-borisom-dzhonsonom-posleduet-sama-mjej-britanskaja-pressa-o-glavnom-politicheskom-krizise-nedeli_145149
+За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели
+
+Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напоминают, что он был одним из самых ярких противников планов премьер-министра Великобритании Терезы Мэй, которая планировала мягкий выход из ЕС. Так, СМИ полагают, что отставка Джонсона, которая последовала сразу же за отставкой министра по выходу Великобритании из ЕС, повысит чувство кризиса в политической элите Великобритании. В дальнейшем это должно претвориться в отставку самой Терезы Мэй, уверено издание The Guardian. Издание называет такое развитие событий самым негативным последствием Brexit. Отметим, что перед отставкой Борис Джонсон уже не стеснялся и открыто критиковал Терезу Мэй, сообщают британские СМИ. Напомним, что до Джонсона поджал в отставку министр по выходу Великобритании из ЕС Дэвид Дэвис. Его отставка состоялась буквально накануне того, как Тереза Мэй должна была Палате общин, в ходе которого она должна представить только что одобренную кабинетом министров стратегию выхода страны из Евросоюза. Разногласия Мэй с Дэвисом и Джонсоном были принципиального характера. Мэй предложила мягкий вариант выхода, суть которого заключается в том, что создание создаются зоны свободной торговли с ЕС для промышленных и сельскохозяйственных товаров, а также сохраняются таможенные стандартов ЕС на границе с Великобританией. В то время как два ключевых министра, которые теперь в отставке, считают такую стратегию ослабляющей страну, она не позволит влиять на решения ЕС. Сам выход Великобритании из ЕС будет оформлен 29 марта.
+",Дэвид Дэвис,PER,PER,3,2,1796,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...""
+Сущность: ""Дэвид Дэвис""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...""
+Entity: ""Дэвид Дэвис""
+Type:"
+brexit_ru.txt_file_1011,"За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...","ru-1011
+ru
+2018-07-09
+https://tsargrad.tv/news/za-borisom-dzhonsonom-posleduet-sama-mjej-britanskaja-pressa-o-glavnom-politicheskom-krizise-nedeli_145149
+За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели
+
+Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напоминают, что он был одним из самых ярких противников планов премьер-министра Великобритании Терезы Мэй, которая планировала мягкий выход из ЕС. Так, СМИ полагают, что отставка Джонсона, которая последовала сразу же за отставкой министра по выходу Великобритании из ЕС, повысит чувство кризиса в политической элите Великобритании. В дальнейшем это должно претвориться в отставку самой Терезы Мэй, уверено издание The Guardian. Издание называет такое развитие событий самым негативным последствием Brexit. Отметим, что перед отставкой Борис Джонсон уже не стеснялся и открыто критиковал Терезу Мэй, сообщают британские СМИ. Напомним, что до Джонсона поджал в отставку министр по выходу Великобритании из ЕС Дэвид Дэвис. Его отставка состоялась буквально накануне того, как Тереза Мэй должна была Палате общин, в ходе которого она должна представить только что одобренную кабинетом министров стратегию выхода страны из Евросоюза. Разногласия Мэй с Дэвисом и Джонсоном были принципиального характера. Мэй предложила мягкий вариант выхода, суть которого заключается в том, что создание создаются зоны свободной торговли с ЕС для промышленных и сельскохозяйственных товаров, а также сохраняются таможенные стандартов ЕС на границе с Великобританией. В то время как два ключевых министра, которые теперь в отставке, считают такую стратегию ослабляющей страну, она не позволит влиять на решения ЕС. Сам выход Великобритании из ЕС будет оформлен 29 марта.
+",Дэвисом,PER,PER,3,1,1796,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...""
+Сущность: ""Дэвисом""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...""
+Entity: ""Дэвисом""
+Type:"
+brexit_ru.txt_file_1011,"За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...","ru-1011
+ru
+2018-07-09
+https://tsargrad.tv/news/za-borisom-dzhonsonom-posleduet-sama-mjej-britanskaja-pressa-o-glavnom-politicheskom-krizise-nedeli_145149
+За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели
+
+Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напоминают, что он был одним из самых ярких противников планов премьер-министра Великобритании Терезы Мэй, которая планировала мягкий выход из ЕС. Так, СМИ полагают, что отставка Джонсона, которая последовала сразу же за отставкой министра по выходу Великобритании из ЕС, повысит чувство кризиса в политической элите Великобритании. В дальнейшем это должно претвориться в отставку самой Терезы Мэй, уверено издание The Guardian. Издание называет такое развитие событий самым негативным последствием Brexit. Отметим, что перед отставкой Борис Джонсон уже не стеснялся и открыто критиковал Терезу Мэй, сообщают британские СМИ. Напомним, что до Джонсона поджал в отставку министр по выходу Великобритании из ЕС Дэвид Дэвис. Его отставка состоялась буквально накануне того, как Тереза Мэй должна была Палате общин, в ходе которого она должна представить только что одобренную кабинетом министров стратегию выхода страны из Евросоюза. Разногласия Мэй с Дэвисом и Джонсоном были принципиального характера. Мэй предложила мягкий вариант выхода, суть которого заключается в том, что создание создаются зоны свободной торговли с ЕС для промышленных и сельскохозяйственных товаров, а также сохраняются таможенные стандартов ЕС на границе с Великобританией. В то время как два ключевых министра, которые теперь в отставке, считают такую стратегию ослабляющей страну, она не позволит влиять на решения ЕС. Сам выход Великобритании из ЕС будет оформлен 29 марта.
+",ЕС,ORG,ORG,2,1,1796,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""За Борисом Джонсоном последует сама Мэй - британская пр**ЕС**са о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...""
+Сущность: ""ЕС""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""За Борисом Джонсоном последует сама Мэй - британская пр**ЕС**са о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...""
+Entity: ""ЕС""
+Type:"
+brexit_ru.txt_file_1011,"За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...","ru-1011
+ru
+2018-07-09
+https://tsargrad.tv/news/za-borisom-dzhonsonom-posleduet-sama-mjej-britanskaja-pressa-o-glavnom-politicheskom-krizise-nedeli_145149
+За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели
+
+Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напоминают, что он был одним из самых ярких противников планов премьер-министра Великобритании Терезы Мэй, которая планировала мягкий выход из ЕС. Так, СМИ полагают, что отставка Джонсона, которая последовала сразу же за отставкой министра по выходу Великобритании из ЕС, повысит чувство кризиса в политической элите Великобритании. В дальнейшем это должно претвориться в отставку самой Терезы Мэй, уверено издание The Guardian. Издание называет такое развитие событий самым негативным последствием Brexit. Отметим, что перед отставкой Борис Джонсон уже не стеснялся и открыто критиковал Терезу Мэй, сообщают британские СМИ. Напомним, что до Джонсона поджал в отставку министр по выходу Великобритании из ЕС Дэвид Дэвис. Его отставка состоялась буквально накануне того, как Тереза Мэй должна была Палате общин, в ходе которого она должна представить только что одобренную кабинетом министров стратегию выхода страны из Евросоюза. Разногласия Мэй с Дэвисом и Джонсоном были принципиального характера. Мэй предложила мягкий вариант выхода, суть которого заключается в том, что создание создаются зоны свободной торговли с ЕС для промышленных и сельскохозяйственных товаров, а также сохраняются таможенные стандартов ЕС на границе с Великобританией. В то время как два ключевых министра, которые теперь в отставке, считают такую стратегию ослабляющей страну, она не позволит влиять на решения ЕС. Сам выход Великобритании из ЕС будет оформлен 29 марта.
+",Евросоюза,ORG,ORG,2,1,1796,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...""
+Сущность: ""Евросоюза""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...""
+Entity: ""Евросоюза""
+Type:"
+brexit_ru.txt_file_1011,"За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...","ru-1011
+ru
+2018-07-09
+https://tsargrad.tv/news/za-borisom-dzhonsonom-posleduet-sama-mjej-britanskaja-pressa-o-glavnom-politicheskom-krizise-nedeli_145149
+За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели
+
+Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напоминают, что он был одним из самых ярких противников планов премьер-министра Великобритании Терезы Мэй, которая планировала мягкий выход из ЕС. Так, СМИ полагают, что отставка Джонсона, которая последовала сразу же за отставкой министра по выходу Великобритании из ЕС, повысит чувство кризиса в политической элите Великобритании. В дальнейшем это должно претвориться в отставку самой Терезы Мэй, уверено издание The Guardian. Издание называет такое развитие событий самым негативным последствием Brexit. Отметим, что перед отставкой Борис Джонсон уже не стеснялся и открыто критиковал Терезу Мэй, сообщают британские СМИ. Напомним, что до Джонсона поджал в отставку министр по выходу Великобритании из ЕС Дэвид Дэвис. Его отставка состоялась буквально накануне того, как Тереза Мэй должна была Палате общин, в ходе которого она должна представить только что одобренную кабинетом министров стратегию выхода страны из Евросоюза. Разногласия Мэй с Дэвисом и Джонсоном были принципиального характера. Мэй предложила мягкий вариант выхода, суть которого заключается в том, что создание создаются зоны свободной торговли с ЕС для промышленных и сельскохозяйственных товаров, а также сохраняются таможенные стандартов ЕС на границе с Великобританией. В то время как два ключевых министра, которые теперь в отставке, считают такую стратегию ослабляющей страну, она не позволит влиять на решения ЕС. Сам выход Великобритании из ЕС будет оформлен 29 марта.
+",Мэй,PER,PER,3,1,1796,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""За Борисом Джонсоном последует сама **Мэй** - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские С""
+Сущность: ""Мэй""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""За Борисом Джонсоном последует сама **Мэй** - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские С""
+Entity: ""Мэй""
+Type:"
+brexit_ru.txt_file_1011,"За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...","ru-1011
+ru
+2018-07-09
+https://tsargrad.tv/news/za-borisom-dzhonsonom-posleduet-sama-mjej-britanskaja-pressa-o-glavnom-politicheskom-krizise-nedeli_145149
+За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели
+
+Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напоминают, что он был одним из самых ярких противников планов премьер-министра Великобритании Терезы Мэй, которая планировала мягкий выход из ЕС. Так, СМИ полагают, что отставка Джонсона, которая последовала сразу же за отставкой министра по выходу Великобритании из ЕС, повысит чувство кризиса в политической элите Великобритании. В дальнейшем это должно претвориться в отставку самой Терезы Мэй, уверено издание The Guardian. Издание называет такое развитие событий самым негативным последствием Brexit. Отметим, что перед отставкой Борис Джонсон уже не стеснялся и открыто критиковал Терезу Мэй, сообщают британские СМИ. Напомним, что до Джонсона поджал в отставку министр по выходу Великобритании из ЕС Дэвид Дэвис. Его отставка состоялась буквально накануне того, как Тереза Мэй должна была Палате общин, в ходе которого она должна представить только что одобренную кабинетом министров стратегию выхода страны из Евросоюза. Разногласия Мэй с Дэвисом и Джонсоном были принципиального характера. Мэй предложила мягкий вариант выхода, суть которого заключается в том, что создание создаются зоны свободной торговли с ЕС для промышленных и сельскохозяйственных товаров, а также сохраняются таможенные стандартов ЕС на границе с Великобританией. В то время как два ключевых министра, которые теперь в отставке, считают такую стратегию ослабляющей страну, она не позволит влиять на решения ЕС. Сам выход Великобритании из ЕС будет оформлен 29 марта.
+",Палате общин,ORG,ORG,2,2,1796,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...""
+Сущность: ""Палате общин""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...""
+Entity: ""Палате общин""
+Type:"
+brexit_ru.txt_file_1011,"За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...","ru-1011
+ru
+2018-07-09
+https://tsargrad.tv/news/za-borisom-dzhonsonom-posleduet-sama-mjej-britanskaja-pressa-o-glavnom-politicheskom-krizise-nedeli_145149
+За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели
+
+Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напоминают, что он был одним из самых ярких противников планов премьер-министра Великобритании Терезы Мэй, которая планировала мягкий выход из ЕС. Так, СМИ полагают, что отставка Джонсона, которая последовала сразу же за отставкой министра по выходу Великобритании из ЕС, повысит чувство кризиса в политической элите Великобритании. В дальнейшем это должно претвориться в отставку самой Терезы Мэй, уверено издание The Guardian. Издание называет такое развитие событий самым негативным последствием Brexit. Отметим, что перед отставкой Борис Джонсон уже не стеснялся и открыто критиковал Терезу Мэй, сообщают британские СМИ. Напомним, что до Джонсона поджал в отставку министр по выходу Великобритании из ЕС Дэвид Дэвис. Его отставка состоялась буквально накануне того, как Тереза Мэй должна была Палате общин, в ходе которого она должна представить только что одобренную кабинетом министров стратегию выхода страны из Евросоюза. Разногласия Мэй с Дэвисом и Джонсоном были принципиального характера. Мэй предложила мягкий вариант выхода, суть которого заключается в том, что создание создаются зоны свободной торговли с ЕС для промышленных и сельскохозяйственных товаров, а также сохраняются таможенные стандартов ЕС на границе с Великобританией. В то время как два ключевых министра, которые теперь в отставке, считают такую стратегию ослабляющей страну, она не позволит влиять на решения ЕС. Сам выход Великобритании из ЕС будет оформлен 29 марта.
+",Тереза Мэй,PER,PER,3,2,1796,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...""
+Сущность: ""Тереза Мэй""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...""
+Entity: ""Тереза Мэй""
+Type:"
+brexit_ru.txt_file_1011,"За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...","ru-1011
+ru
+2018-07-09
+https://tsargrad.tv/news/za-borisom-dzhonsonom-posleduet-sama-mjej-britanskaja-pressa-o-glavnom-politicheskom-krizise-nedeli_145149
+За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели
+
+Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напоминают, что он был одним из самых ярких противников планов премьер-министра Великобритании Терезы Мэй, которая планировала мягкий выход из ЕС. Так, СМИ полагают, что отставка Джонсона, которая последовала сразу же за отставкой министра по выходу Великобритании из ЕС, повысит чувство кризиса в политической элите Великобритании. В дальнейшем это должно претвориться в отставку самой Терезы Мэй, уверено издание The Guardian. Издание называет такое развитие событий самым негативным последствием Brexit. Отметим, что перед отставкой Борис Джонсон уже не стеснялся и открыто критиковал Терезу Мэй, сообщают британские СМИ. Напомним, что до Джонсона поджал в отставку министр по выходу Великобритании из ЕС Дэвид Дэвис. Его отставка состоялась буквально накануне того, как Тереза Мэй должна была Палате общин, в ходе которого она должна представить только что одобренную кабинетом министров стратегию выхода страны из Евросоюза. Разногласия Мэй с Дэвисом и Джонсоном были принципиального характера. Мэй предложила мягкий вариант выхода, суть которого заключается в том, что создание создаются зоны свободной торговли с ЕС для промышленных и сельскохозяйственных товаров, а также сохраняются таможенные стандартов ЕС на границе с Великобританией. В то время как два ключевых министра, которые теперь в отставке, считают такую стратегию ослабляющей страну, она не позволит влиять на решения ЕС. Сам выход Великобритании из ЕС будет оформлен 29 марта.
+",Терезу Мэй,PER,PER,3,2,1796,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...""
+Сущность: ""Терезу Мэй""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...""
+Entity: ""Терезу Мэй""
+Type:"
+brexit_ru.txt_file_1011,"За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...","ru-1011
+ru
+2018-07-09
+https://tsargrad.tv/news/za-borisom-dzhonsonom-posleduet-sama-mjej-britanskaja-pressa-o-glavnom-politicheskom-krizise-nedeli_145149
+За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели
+
+Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напоминают, что он был одним из самых ярких противников планов премьер-министра Великобритании Терезы Мэй, которая планировала мягкий выход из ЕС. Так, СМИ полагают, что отставка Джонсона, которая последовала сразу же за отставкой министра по выходу Великобритании из ЕС, повысит чувство кризиса в политической элите Великобритании. В дальнейшем это должно претвориться в отставку самой Терезы Мэй, уверено издание The Guardian. Издание называет такое развитие событий самым негативным последствием Brexit. Отметим, что перед отставкой Борис Джонсон уже не стеснялся и открыто критиковал Терезу Мэй, сообщают британские СМИ. Напомним, что до Джонсона поджал в отставку министр по выходу Великобритании из ЕС Дэвид Дэвис. Его отставка состоялась буквально накануне того, как Тереза Мэй должна была Палате общин, в ходе которого она должна представить только что одобренную кабинетом министров стратегию выхода страны из Евросоюза. Разногласия Мэй с Дэвисом и Джонсоном были принципиального характера. Мэй предложила мягкий вариант выхода, суть которого заключается в том, что создание создаются зоны свободной торговли с ЕС для промышленных и сельскохозяйственных товаров, а также сохраняются таможенные стандартов ЕС на границе с Великобританией. В то время как два ключевых министра, которые теперь в отставке, считают такую стратегию ослабляющей страну, она не позволит влиять на решения ЕС. Сам выход Великобритании из ЕС будет оформлен 29 марта.
+",Терезы Мэй,PER,PER,3,2,1796,"Ты - эксперт по извлечению именованных сущностей (Named Entity Recognition, NER) из текста на русском языке.
+
+Твоя задача: определить тип указанной сущности в тексте. Выбери ТОЛЬКО ОДНУ категорию из следующих:
+
+1. PER - Персона (имена людей, например: Владимир Путин, Тереза Мэй)
+2. ORG - Организация (компании, учреждения, политические партии, например: Сбербанк, ООН, Консервативная партия)
+3. LOC - Локация (города, страны, регионы, например: Москва, Великобритания, ЕС)
+4. EVT - Событие (исторические события, конференции, соглашения, например: Brexit, Вторая мировая война)
+5. PRO - Продукт (законы, документы, продукты, например: конституция, договор, iPhone)
+
+Ответь ТОЛЬКО одной меткой: PER, ORG, LOC, EVT или PRO. Никаких пояснений.
+
+Примеры:
+Текст: ""Президент России Владимир Путин выступил с речью в Кремле.""
+Сущность: ""Владимир Путин""
+Тип: PER
+
+Текст: ""Сбербанк объявил о новых тарифах на банковские услуги.""
+Сущность: ""Сбербанк""
+Тип: ORG
+
+Текст: ""Конференция по климату проходит в Париже с участием 50 стран.""
+Сущность: ""Париж""
+Тип: LOC
+
+Текст: ""Подписание Brexit соглашения состоялось вчера в Лондоне.""
+Сущность: ""Brexit""
+Тип: EVT
+
+Текст: ""Новая конституция страны была принята парламентом единогласно.""
+Сущность: ""конституция""
+Тип: PRO
+
+Теперь проанализируй этот пример:
+
+Текст: ""За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...""
+Сущность: ""Терезы Мэй""
+Тип:","You are an expert in Named Entity Recognition (NER) from Russian text.
+
+Your task: Determine the type of the specified entity in the text. Choose ONLY ONE category from the following:
+
+1. PER - Person (names of people, e.g., Vladimir Putin, Theresa May)
+2. ORG - Organization (companies, institutions, political parties, e.g., Sberbank, UN, Conservative Party)
+3. LOC - Location (cities, countries, regions, e.g., Moscow, United Kingdom, EU)
+4. EVT - Event (historical events, conferences, agreements, e.g., Brexit, World War II)
+5. PRO - Product (laws, documents, products, e.g., constitution, treaty, iPhone)
+
+Answer ONLY with one label: PER, ORG, LOC, EVT or PRO. No explanations.
+
+Examples:
+Text: ""Russian President Vladimir Putin gave a speech in the Kremlin.""
+Entity: ""Vladimir Putin""
+Type: PER
+
+Text: ""Sberbank announced new tariffs for banking services.""
+Entity: ""Sberbank""
+Type: ORG
+
+Text: ""The climate conference is taking place in Paris with 50 countries participating.""
+Entity: ""Paris""
+Type: LOC
+
+Text: ""The Brexit agreement was signed yesterday in London.""
+Entity: ""Brexit""
+Type: EVT
+
+Text: ""The new constitution of the country was unanimously adopted by parliament.""
+Entity: ""constitution""
+Type: PRO
+
+Now analyze this example:
+
+Text: ""За Борисом Джонсоном последует сама Мэй - британская пресса о главном политическом кризисе недели  Комментируя отставку министра иностранных дел Великобритании Бориса Джонсона, британские СМИ напомина...""
+Entity: ""Терезы Мэй""
+Type:"
